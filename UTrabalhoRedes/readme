@@ -1,0 +1,8 @@
+Para compilar:
+gcc -c funcoes.c -o funcoes.o -Wall
+
+gcc roteador.c funcoes.o -lpthread -Wall
+
+Para executar:
+
+./a.out N_ROTEADOR
